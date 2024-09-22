@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+h1{
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: red;
+}
+
+h2,p{
+    color: white;
+}
+
+h3{
+    color: green;
+}
+
+div{
+    background-color: white;
+    text-align: left;
+}
+
+.bots{
+    color: blue;
+}

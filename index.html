@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="M5.ico">
+    <script src="script.js"></script>
+    <script>
+        function home(){
+            document.title = "Home";
+        }
+        function bio(){
+            document.title = "Biography";
+        }
+        function skil(){
+            document.title = "Skills";
+        }
+        function join(){
+            document.title = "Join Us";
+        }
+        function contact(){
+            document.title = "Contact Us";
+        }
+    </script>
+    <title>Home</title>
+</head>
+<body onload="verifhome()">
+    <header>
+        <img class="img1" src="M5.png" alt="image M5 introuvable">
+        <div class="hd">
+            <a href="home.html" target="zoneA" onclick="home()">Home</a>
+            <a href="biography.html" target="zoneA" onclick="bio()">Biography</a>
+            <a href="skills.html" target="zoneA" onclick="skil()">Skills</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScfScM7-cf1k3Fbu3WZPi78wSNQp5H9HzSwVE_cZCgI2Xy5zw/viewform?usp=sf_link" target="zoneA" onclick="join()">Join Us</a>
+            <a href="contactus.html" target="zoneA" onclick="contact()">Contact Us</a>
+        </div>
+        <img class="img2" src="google.jpg" alt="image google introuvable">
+    </header>
+    <section>
+        <iframe src="home.html" name="zoneA"></iframe>
+    </section>
+</body>
+</html>

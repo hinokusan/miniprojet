@@ -1,0 +1,44 @@
+*{
+    font-family: Georgia;
+}
+
+.tab{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tab th, .tab td{
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th{
+    background-color: #f4f4f4;
+}
+
+.active{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 48%;
+    color: green;
+}
+
+.but{
+    position: relative;
+    margin-left: 42%;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 4, 255);
+    background-color: white;
+}
+
+#dt{
+    text-align: right;
+}
+
+#mail,input[type="button"]{
+    width: 300px;
+}
